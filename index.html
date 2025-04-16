@@ -22,6 +22,32 @@
     input, textarea, select { padding: 0.75rem; border: 1px solid #ccc; border-radius: 0.5rem; }
     button { background-color: #0f172a; color: white; padding: 0.75rem; border: none; border-radius: 0.5rem; cursor: pointer; }
     footer { background-color: #0f172a; color: white; text-align: center; padding: 1rem; margin-top: 2rem; }
+    .floating-btn {
+      position: fixed;
+      bottom: 80px;
+      left: 20px;
+      background-color: #25D366;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      z-index: 1000;
+    }
+    .call-btn {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      background-color: #0f172a;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      z-index: 1000;
+    }
   </style>
 </head>
 <body>
@@ -92,5 +118,11 @@
     <p>جميع الحقوق محفوظة &copy; النجم الحديث 2025</p>
     <p>للتواصل: 776798168</p>
   </footer>
+
+  <!-- زر واتساب -->
+  <a href="https://wa.me/967776798168" target="_blank" class="floating-btn">واتساب</a>
+
+  <!-- زر اتصال -->
+  <a href="tel:776798168" class="call-btn">اتصل الآن</a>
 </body>
 </html>
